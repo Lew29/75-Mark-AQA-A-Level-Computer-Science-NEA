@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="PathFinding.PriorityQueue(Of t)">
+    <Position X="12.5" Y="0.5" Width="2" />
+    <NestedTypes>
+      <Struct Name="PathFinding.PriorityQueue(Of t).Data" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Code\PriorityQueue.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAAAAAAQAAAAABCAAAAAAAABAAAA=</HashCode>
+      <FileName>Code\PriorityQueue.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PathFinding.PathFinding">
+    <Position X="7" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAABAAAAEASQAAAAAAAAAQAAIAAACAAAAAAAEE=</HashCode>
+      <FileName>Code\PathFinding.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PathFinding.MazeGeneration">
+    <Position X="7" Y="8.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>EIAAAAACAAAAIAAAAAEAAQAAAEAAgAQAAAAACEAAAAA=</HashCode>
+      <FileName>Code\MazeGeneration.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PathFinding.Main">
+    <Position X="0.5" Y="4.5" Width="3" />
+    <Members>
+      <Field Name="btnClear" Hidden="true" />
+      <Field Name="btnDownload" Hidden="true" />
+      <Field Name="btnGenerate" Hidden="true" />
+      <Field Name="btnGenerateSolve" Hidden="true" />
+      <Field Name="btnSolve" Hidden="true" />
+      <Field Name="cmbSelectedGridCustomisation" Hidden="true" />
+      <Field Name="cmbSelectedPath" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="lblAverageLength" Hidden="true" />
+      <Field Name="lblBranches" Hidden="true" />
+      <Field Name="lblCellsExplored" Hidden="true" />
+      <Field Name="lblDeadends" Hidden="true" />
+      <Field Name="lblDelay" Hidden="true" />
+      <Field Name="lblGridCustomisation" Hidden="true" />
+      <Field Name="lblPathfinding" Hidden="true" />
+      <Field Name="lblSettings" Hidden="true" />
+      <Field Name="lblShortestPath" Hidden="true" />
+      <Field Name="lblSize" Hidden="true" />
+      <Field Name="lbltextTimeTakenPath" Hidden="true" />
+      <Field Name="lblTimeTakenGrid" Hidden="true" />
+      <Field Name="nudDelay" Hidden="true" />
+      <Field Name="nudSize" Hidden="true" />
+      <Field Name="pnlCustomisation" Hidden="true" />
+      <Field Name="pnlMazeAlgorithm" Hidden="true" />
+      <Field Name="trbDelay" Hidden="true" />
+      <Field Name="trbSize" Hidden="true" />
+      <Field Name="txtAverageLength" Hidden="true" />
+      <Field Name="txtBranches" Hidden="true" />
+      <Field Name="txtCellsExplored" Hidden="true" />
+      <Field Name="txtDeadends" Hidden="true" />
+      <Field Name="txtShortestPath" Hidden="true" />
+      <Field Name="txtTimeTakenGrid" Hidden="true" />
+      <Field Name="txtTimeTakenPath" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AQEQLAKAUCUjAAAgooSAAIEGPB5AIIoAggAFQABAIBA=</HashCode>
+      <FileName>Main.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PathFinding.Download">
+    <Position X="0.5" Y="0.5" Width="3" />
+    <Members>
+      <Field Name="btnChangeFileLocation" Hidden="true" />
+      <Field Name="btnDownload" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Field Name="fbdChooseFileLocation" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAACAAAAAEAgCCgIACAABAAAAAAAAQAAAAAEA=</HashCode>
+      <FileName>Download.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PathFinding.DisplayGrid">
+    <Position X="4.25" Y="2.75" Width="2" />
+    <Members>
+      <Field Name="bmGrid" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="picGrid" Hidden="true" />
+      <Field Name="tmrDraw" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>EgIgAAAQBCIAggAGAACYEJhCEgUBCIAAAMAAAFAAAAA=</HashCode>
+      <FileName>DisplayGrid.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PathFinding.Grid">
+    <Position X="7" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAAAIAAAAAAAACAAAAwEAAAAAAAA=</HashCode>
+      <FileName>Code\Grid.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="PathFinding.Connection">
+    <Position X="10.25" Y="10" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAABAAIAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Code\Structures.vb</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="PathFinding.Instructions">
+    <Position X="12.25" Y="5.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAYAA=</HashCode>
+      <FileName>Code\Structures.vb</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="PathFinding.CellProperties">
+    <Position X="10.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAACAAAAQAAAAAAAAAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>Code\Structures.vb</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Enum Name="PathFinding.Type">
+    <Position X="14.75" Y="6" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAIAIAAAIAAAAAAAAAAAQAAAAAAACAAAg=</HashCode>
+      <FileName>Code\Enumerals.vb</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="PathFinding.PathfindingAlgorithm">
+    <Position X="4.25" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACAABQAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Code\Enumerals.vb</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="PathFinding.GridCustomisation">
+    <Position X="4.25" Y="10.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAAAAAAAAAEBCAABAAAABAAAAAAAA=</HashCode>
+      <FileName>Code\Enumerals.vb</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Module Name="PathFinding.Methods">
+    <Position X="9.5" Y="5.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAACAAAAAAAAAAACQAQCAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Code\Methods.vb</FileName>
+    </TypeIdentifier>
+  </Module>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
